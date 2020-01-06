@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="215.36337mm"
+   height="110.49683mm"
+   viewBox="0 0 215.36337 110.49681"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="Fingerprint Software (white text).svg"
+   inkscape:export-filename="/home/jlamothe/Documents/Fingerprint Software/Logo/Fingerprint Software.svg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX">
+      <path
+         id="path31"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch"
+       height="8">
+      <path
+         id="path34"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path36"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path38"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <filter
+       inkscape:label="Inset"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       style="color-interpolation-filters:sRGB"
+       id="filter736">
+      <feGaussianBlur
+         stdDeviation="2.3"
+         in="SourceAlpha"
+         result="result0"
+         id="feGaussianBlur710" />
+      <feMorphology
+         in="SourceAlpha"
+         radius="6.6"
+         result="result1"
+         id="feMorphology712" />
+      <feGaussianBlur
+         stdDeviation="8.9"
+         in="result1"
+         id="feGaussianBlur714" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
+         result="result91"
+         id="feColorMatrix716" />
+      <feComposite
+         in="result0"
+         operator="out"
+         result="result2"
+         in2="result91"
+         id="feComposite718" />
+      <feGaussianBlur
+         stdDeviation="1.7"
+         result="result4"
+         id="feGaussianBlur720" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         id="feDiffuseLighting724">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight722" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         id="feBlend726" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result3"
+         id="feComposite728" />
+      <feSpecularLighting
+         in="result4"
+         surfaceScale="5"
+         specularExponent="17.89999962"
+         id="feSpecularLighting732">
+        <feDistantLight
+           azimuth="225"
+           elevation="45"
+           id="feDistantLight730" />
+      </feSpecularLighting>
+      <feComposite
+         in2="result3"
+         operator="atop"
+         id="feComposite734"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix738" />
+      <feMorphology
+         id="feMorphology740"
+         result="result1"
+         in="fbSourceGraphicAlpha"
+         operator="dilate"
+         radius="3.6" />
+      <feGaussianBlur
+         id="feGaussianBlur742"
+         stdDeviation="3.6"
+         in="result1"
+         result="result0" />
+      <feDiffuseLighting
+         id="feDiffuseLighting744"
+         surfaceScale="-5"
+         result="result92">
+        <feDistantLight
+           id="feDistantLight746"
+           elevation="45"
+           azimuth="225" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result0"
+         id="feComposite748"
+         operator="in"
+         result="result91" />
+      <feComposite
+         in2="result91"
+         id="feComposite750"
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="176.72032"
+     inkscape:cy="181.59955"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.612086,-93.251588)">
+    <path
+       style="fill:#0000ff;stroke-width:0.26458332;filter:url(#filter736)"
+       d="m 70.51807,185.8318 c 0.0791,-0.20623 5.9335,-10.40203 13.0097,-22.65734 l 12.86581,-22.28238 -2.53204,-4.40007 c -1.39261,-2.42003 -3.39515,-5.88834 -4.45008,-7.70735 l -1.91806,-3.30729 -4.29652,-0.0727 -4.29653,-0.0727 v -7.26949 -7.26949 l 8.53281,0.006 8.53282,0.006 17.4625,30.28601 17.4625,30.28602 4.29948,0.003 4.29947,0.003 v 7.41199 7.412 l -8.50224,-0.0698 -8.50225,-0.0698 -8.74421,-15.1474 c -4.80931,-8.33106 -8.81168,-15.14739 -8.89415,-15.14739 -0.0825,0 -4.08404,6.81633 -8.89239,15.14739 l -8.74244,15.1474 -8.41903,0.0699 c -7.17612,0.0596 -8.39779,0.0145 -8.27515,-0.30505 z"
+       id="path137"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.45833397px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="189.48358"
+       y="129.75728"
+       id="text773"><tspan
+         sodipodi:role="line"
+         id="tspan789"
+         x="189.48358"
+         y="129.75728">Fingerprint</tspan><tspan
+         sodipodi:role="line"
+         id="tspan791"
+         x="189.48358"
+         y="162.8302">Software</tspan></text>
+  </g>
+</svg>
