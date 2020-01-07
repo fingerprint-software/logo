@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="90.324509mm"
-   height="96.106361mm"
-   viewBox="0 0 90.324509 96.106361"
+   width="108.19268mm"
+   height="108.49033mm"
+   viewBox="0 0 108.19268 108.49033"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
-   sodipodi:docname="Logo.svg">
+   sodipodi:docname="Logo2.svg">
   <defs
      id="defs2">
     <marker
@@ -25,7 +25,7 @@
        orient="auto"
        id="DistanceX">
       <path
-         id="path31"
+         id="path88"
          style="stroke:#000000;stroke-width:0.5"
          d="M 3,-3 -3,3 M 0,-5 V 5"
          inkscape:connector-curvature="0" />
@@ -38,19 +38,19 @@
        id="Hatch"
        height="8">
       <path
-         id="path34"
+         id="path91"
          stroke-width="0.25"
          stroke="#000000"
          linecap="square"
          d="M8 4 l-4,4" />
       <path
-         id="path36"
+         id="path93"
          stroke-width="0.25"
          stroke="#000000"
          linecap="square"
          d="M6 2 l-4,4" />
       <path
-         id="path38"
+         id="path95"
          stroke-width="0.25"
          stroke="#000000"
          linecap="square"
@@ -61,105 +61,104 @@
     <symbol
        id="*Paper_Space" />
     <filter
-       inkscape:label="Inset"
-       inkscape:menu="Shadows and Glows"
-       inkscape:menu-tooltip="Shadowy outer bevel"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft bevel, slightly depressed middle"
        style="color-interpolation-filters:sRGB;"
-       id="filter736">
+       id="filter569">
       <feGaussianBlur
          stdDeviation="2.3"
          in="SourceAlpha"
          result="result0"
-         id="feGaussianBlur710" />
+         id="feGaussianBlur543" />
       <feMorphology
          in="SourceAlpha"
          radius="6.6"
          result="result1"
-         id="feMorphology712" />
+         id="feMorphology545" />
       <feGaussianBlur
          stdDeviation="8.9"
          in="result1"
-         id="feGaussianBlur714" />
+         id="feGaussianBlur547" />
       <feColorMatrix
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0"
          result="result91"
-         id="feColorMatrix716" />
+         id="feColorMatrix549" />
       <feComposite
          in="result0"
          operator="out"
          result="result2"
          in2="result91"
-         id="feComposite718" />
+         id="feComposite551" />
       <feGaussianBlur
          stdDeviation="1.7"
          result="result4"
-         id="feGaussianBlur720" />
+         id="feGaussianBlur553" />
       <feDiffuseLighting
          surfaceScale="10"
-         id="feDiffuseLighting724">
+         id="feDiffuseLighting557">
         <feDistantLight
            azimuth="225"
            elevation="45"
-           id="feDistantLight722" />
+           id="feDistantLight555" />
       </feDiffuseLighting>
       <feBlend
          in2="SourceGraphic"
          mode="multiply"
-         id="feBlend726" />
+         id="feBlend559" />
       <feComposite
          in2="SourceAlpha"
          operator="in"
          result="result3"
-         id="feComposite728" />
+         id="feComposite561" />
       <feSpecularLighting
          in="result4"
          surfaceScale="5"
          specularExponent="17.9"
-         id="feSpecularLighting732">
+         id="feSpecularLighting565">
         <feDistantLight
            azimuth="225"
            elevation="45"
-           id="feDistantLight730" />
+           id="feDistantLight563" />
       </feSpecularLighting>
       <feComposite
          in2="result3"
          operator="atop"
-         id="feComposite734"
+         id="feComposite567"
          result="fbSourceGraphic" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
          values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix738" />
-      <feMorphology
-         id="feMorphology740"
-         result="result1"
-         in="fbSourceGraphicAlpha"
-         operator="dilate"
-         radius="3.6" />
-      <feGaussianBlur
-         id="feGaussianBlur742"
-         stdDeviation="3.6"
-         in="result1"
-         result="result0" />
-      <feDiffuseLighting
-         id="feDiffuseLighting744"
-         surfaceScale="-5"
-         result="result92">
-        <feDistantLight
-           id="feDistantLight746"
-           elevation="45"
-           azimuth="225" />
-      </feDiffuseLighting>
-      <feComposite
-         in2="result0"
-         id="feComposite748"
-         operator="in"
-         result="result91" />
-      <feComposite
-         in2="result91"
-         id="feComposite750"
+         id="feColorMatrix571" />
+      <feFlood
+         id="feFlood573"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
          in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite575"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur577"
+         in="composite1"
+         stdDeviation="3"
+         result="blur" />
+      <feOffset
+         id="feOffset579"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite581"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -169,9 +168,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="205.03323"
-     inkscape:cy="154.40502"
+     inkscape:zoom="0.7546875"
+     inkscape:cx="231.40374"
+     inkscape:cy="81.687413"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -192,7 +191,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -200,11 +199,29 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-59.837747,-100.44682)">
-    <path
-       style="fill:#0000ff;stroke-width:0.26458332;filter:url(#filter736)"
-       d="m 70.51807,185.8319 c 0.0791,-0.20623 5.9335,-10.40203 13.0097,-22.65734 l 12.86581,-22.28238 -2.53204,-4.40007 c -1.39261,-2.42003 -3.39515,-5.88834 -4.45008,-7.70735 l -1.91806,-3.30729 -4.29652,-0.0727 -4.29653,-0.0727 v -7.26949 -7.26949 l 8.53281,0.006 8.53282,0.006 17.4625,30.28601 17.4625,30.28602 4.29948,0.003 4.29947,0.003 v 7.41199 7.412 l -8.50224,-0.0698 -8.50225,-0.0698 -8.74421,-15.1474 c -4.80931,-8.33106 -8.81168,-15.14739 -8.89415,-15.14739 -0.0825,0 -4.08404,6.81633 -8.89239,15.14739 l -8.74244,15.1474 -8.41903,0.0699 c -7.17612,0.0596 -8.39779,0.0145 -8.27515,-0.30505 z"
-       id="path137"
-       inkscape:connector-curvature="0" />
+     transform="translate(-44.607761,-61.956133)">
+    <g
+       id="g188"
+       transform="translate(-13.379316,-33.334343)"
+       style="filter:url(#filter569)">
+      <path
+         transform="scale(0.26458333)"
+         inkscape:connector-curvature="0"
+         id="path179"
+         d="m 256.98276,730.09111 c 17.81871,-28.92645 113.26728,-196.73464 113.17969,-198.98126 -0.0678,-1.73888 -8.76791,-17.94731 -19.33361,-36.01874 l -19.21035,-32.85714 -19.23782,-0.84483 -19.23781,-0.84483 v -31.29802 -31.29803 l 37.85714,0.0969 37.85714,0.0969 77.67788,134.90313 77.67787,134.90314 18.75071,0.84483 18.75069,0.84482 v 31.38098 31.38094 l -37.44974,-0.7972 -37.44974,-0.79723 -37.70568,-65.32263 c -20.73812,-35.92745 -38.92146,-65.37286 -40.4074,-65.43423 -1.48595,-0.0614 -19.90624,29.65523 -40.93398,66.03692 l -38.23225,66.14851 h -36.93637 c -20.315,0 -36.34237,-0.96428 -35.61637,-2.14286 z"
+         style="fill:#0000ff;stroke-width:2.85714293" />
+      <path
+         transform="scale(0.26458333)"
+         inkscape:connector-curvature="0"
+         id="path181"
+         d="m 430.51949,430.52136 c -9.55715,-16.65623 -17.37663,-30.79908 -17.37663,-31.42857 0,-0.6295 39.85714,-1.14453 88.57143,-1.14453 h 88.57142 v 31.42857 31.42857 h -71.19479 -71.1948 z"
+         style="fill:#0000ff;stroke-width:2.85714293" />
+      <path
+         transform="scale(0.26458333)"
+         inkscape:connector-curvature="0"
+         id="path183"
+         d="m 513.47865,573.95625 c -7.79405,-13.1956 -16.23395,-27.98131 -18.75534,-32.85714 l -4.58434,-8.86514 h 50.07337 50.07337 v 32.85714 32.85715 h -31.31803 -31.31803 z"
+         style="fill:#0000ff;stroke-width:2.85714293" />
+    </g>
   </g>
 </svg>
